@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f7fafd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  max-width: 730px;
+  width: 100%;
+  height: 839px;
+  background-color: #ffffff;
+  box-shadow: 0px 20px 60px 0px #4961a80d;
+  padding: 33px 30px 0 30px;
+  transition: all 0.5s ease-in;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 31px;
+    .sms {
+      font-family: "800";
+      font-weight: 800;
+      font-size: 24px;
+      color: #1c202b;
+      span {
+        font-family: "800";
+        font-weight: 800;
+        font-size: 16px;
+        background-color: #0a327b;
+        padding: 1px 11px 4px 11px;
+        color: #ffffff;
+        border-radius: 8px;
+      }
+    }
+    .Mark {
+      font-family: "500";
+      font-weight: 500;
+      font-size: 16px;
+      color: #5e6778;
+      transition: all 0.5s ease-in;
+    }
+  }
+  .box {
+    background-color: #ffffff;
+    box-shadow: 0px 20px 60px 0px #4961a80d;
+    display: flex;
+    gap: 19px;
+    padding: 18px 32px 17px 20px;
+
+    div {
+      .card-info {
+        font-family: "500";
+        font-size: 16px;
+        font-weight: 500;
+        color: #5e6778;
+        .name {
+          font-family: "800";
+          font-weight: 800;
+          font-size: 16px;
+          color: #1c202b;
+          transition: all 0.5s ease;
+        }
+        .day {
+          font-family: "800";
+          font-weight: 800;
+          font-size: 16px;
+          color: #5e6778;
+        }
+        .Club {
+          font-family: "800";
+          font-weight: 800;
+          font-size: 16px;
+          color: #0a327b;
+          transition: all 0.4s ease;
+        }
+      }
+      .online {
+        font-family: "500";
+        font-weight: 500;
+        font-size: 16px;
+        color: #939cad;
+        margin-bottom: 13px;
+      }
+      div {
+        padding: 20px;
+        border: 1px solid #dde7ee;
+        transition: all 0.5s ease-in;
+        border-radius: 8px;
+        .title {
+          font-family: "500";
+          font-weight: 500;
+          font-size: 16px;
+          color: #5e6778;
+        }
+      }
+    }
+  }
+  .card {
+    display: flex;
+    gap: 19px;
+    background-color: #f7fafd;
+    padding: 18px 32px 17px 20px;
+    margin-bottom: 8px;
+    div {
+      .card-info {
+        font-family: "500";
+        font-size: 16px;
+        font-weight: 500;
+        color: #5e6778;
+        .name {
+          font-family: "800";
+          font-weight: 800;
+          font-size: 16px;
+          color: #1c202b;
+          transition: all 0.5s ease;
+        }
+        .day {
+          font-family: "800";
+          font-weight: 800;
+          font-size: 16px;
+          color: #5e6778;
+        }
+        .Club {
+          font-family: "800";
+          font-weight: 800;
+          font-size: 16px;
+          color: #0a327b;
+        }
+      }
+      .online {
+        font-family: "500";
+        font-weight: 500;
+        font-size: 16px;
+        color: #939cad;
+        margin-bottom: 13px;
+      }
+    }
+  }
+}
+@media (max-width: 735px) {
+  .container {
+    padding: 24px 16px 29px 16px;
+    .header {
+      .sms {
+        font-size: 20px;
+      }
+      .Mark {
+        font-size: 14px;
+      }
+    }
+    .card {
+      margin-bottom: 10px;
+      div {
+        .card-info {
+          font-size: 14px;
+          .name {
+            font-size: 14px;
+          }
+          .day {
+            font-size: 14px;
+          }
+          .online {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .box{
+      padding: 16px;
+      .title{
+        font-size: 14px;
+      }
+    }
+  }
+}
+.container:hover {
+  transform: scale(1.01);
+  .header {
+    .Mark:hover {
+      color: #0a327b;
+      cursor: pointer;
+    }
+  }
+  .card {
+    div {
+      .Club:hover {
+        cursor: pointer;
+      }
+      .name:hover {
+        color: #0a327b;
+        cursor: pointer;
+      }
+    }
+  }
+  .box {
+    div {
+      .name:hover {
+        color: #0a327b;
+        cursor: pointer;
+      }
+      div:hover {
+        background-color: #dde7ee;
+        cursor: pointer;
+      }
+    }
+  }
+}
+// .container {
+//   .header {
+//     .Mark:hover {
+//       color: #0a327b;
+//       cursor: pointer;
+//     }
+//   }
+// }

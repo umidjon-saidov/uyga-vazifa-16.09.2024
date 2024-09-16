@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7fafd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 730px;
+  width: 100%;
+  height: 839px;
+  background-color: #ffffff;
+  box-shadow: 0px 20px 60px 0px rgba(73, 97, 168, 0.0509803922);
+  padding: 33px 30px 0 30px;
+  transition: all 0.5s ease-in;
+}
+.container .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 31px;
+}
+.container .header .sms {
+  font-family: "800";
+  font-weight: 800;
+  font-size: 24px;
+  color: #1c202b;
+}
+.container .header .sms span {
+  font-family: "800";
+  font-weight: 800;
+  font-size: 16px;
+  background-color: #0a327b;
+  padding: 1px 11px 4px 11px;
+  color: #ffffff;
+  border-radius: 8px;
+}
+.container .header .Mark {
+  font-family: "500";
+  font-weight: 500;
+  font-size: 16px;
+  color: #5e6778;
+  transition: all 0.5s ease-in;
+}
+.container .box {
+  background-color: #ffffff;
+  box-shadow: 0px 20px 60px 0px rgba(73, 97, 168, 0.0509803922);
+  display: flex;
+  gap: 19px;
+  padding: 18px 32px 17px 20px;
+}
+.container .box div .card-info {
+  font-family: "500";
+  font-size: 16px;
+  font-weight: 500;
+  color: #5e6778;
+}
+.container .box div .card-info .name {
+  font-family: "800";
+  font-weight: 800;
+  font-size: 16px;
+  color: #1c202b;
+  transition: all 0.5s ease;
+}
+.container .box div .card-info .day {
+  font-family: "800";
+  font-weight: 800;
+  font-size: 16px;
+  color: #5e6778;
+}
+.container .box div .card-info .Club {
+  font-family: "800";
+  font-weight: 800;
+  font-size: 16px;
+  color: #0a327b;
+  transition: all 0.4s ease;
+}
+.container .box div .online {
+  font-family: "500";
+  font-weight: 500;
+  font-size: 16px;
+  color: #939cad;
+  margin-bottom: 13px;
+}
+.container .box div div {
+  padding: 20px;
+  border: 1px solid #dde7ee;
+  transition: all 0.5s ease-in;
+  border-radius: 8px;
+}
+.container .box div div .title {
+  font-family: "500";
+  font-weight: 500;
+  font-size: 16px;
+  color: #5e6778;
+}
+.container .card {
+  display: flex;
+  gap: 19px;
+  background-color: #f7fafd;
+  padding: 18px 32px 17px 20px;
+  margin-bottom: 8px;
+}
+.container .card div .card-info {
+  font-family: "500";
+  font-size: 16px;
+  font-weight: 500;
+  color: #5e6778;
+}
+.container .card div .card-info .name {
+  font-family: "800";
+  font-weight: 800;
+  font-size: 16px;
+  color: #1c202b;
+  transition: all 0.5s ease;
+}
+.container .card div .card-info .day {
+  font-family: "800";
+  font-weight: 800;
+  font-size: 16px;
+  color: #5e6778;
+}
+.container .card div .card-info .Club {
+  font-family: "800";
+  font-weight: 800;
+  font-size: 16px;
+  color: #0a327b;
+}
+.container .card div .online {
+  font-family: "500";
+  font-weight: 500;
+  font-size: 16px;
+  color: #939cad;
+  margin-bottom: 13px;
+}
+
+@media (max-width: 735px) {
+  .container {
+    padding: 24px 16px 29px 16px;
+  }
+  .container .header .sms {
+    font-size: 20px;
+  }
+  .container .header .Mark {
+    font-size: 14px;
+  }
+  .container .card {
+    margin-bottom: 10px;
+  }
+  .container .card div .card-info {
+    font-size: 14px;
+  }
+  .container .card div .card-info .name {
+    font-size: 14px;
+  }
+  .container .card div .card-info .day {
+    font-size: 14px;
+  }
+  .container .card div .card-info .online {
+    font-size: 14px;
+  }
+  .container .box {
+    padding: 16px;
+  }
+  .container .box .title {
+    font-size: 14px;
+  }
+}
+.container:hover {
+  transform: scale(1.01);
+}
+.container:hover .header .Mark:hover {
+  color: #0a327b;
+  cursor: pointer;
+}
+.container:hover .card div .Club:hover {
+  cursor: pointer;
+}
+.container:hover .card div .name:hover {
+  color: #0a327b;
+  cursor: pointer;
+}
+.container:hover .box div .name:hover {
+  color: #0a327b;
+  cursor: pointer;
+}
+.container:hover .box div div:hover {
+  background-color: #dde7ee;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
